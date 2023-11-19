@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Shadows+Into+Light&family=Space+Mono&display=swap');
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+body{ 
+    background-image: url("./background.webp");
+    background-size: cover;
+    width: auto;
+}
+/* navbar fixed */
+.navbar h1 {
+    position: absolute;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: xx-large;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.navbar {
+    background-color:rgb(63, 63, 63);
+    color: gainsboro;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    text-align: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;    
+}
+
+.navlinks li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.banner h1 {
+    background-color: white;
+    width: auto;
+    margin: 100px auto;
+    padding: 0px 100px; 
+    font-family: Shadows into light;
+    font-size: 70px;
+    border: 5px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+h2 {
+    margin: 50px 150px 20px 110px;
+    font-size: 50px;
+    font-family: monospace;
+}
+/* container in the middle of the page */
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 950px;
+    height: 800px;
+    border: 2px solid black;
+    margin: 5px 100px 0px 110px;
+  
+}
+
+#colors div{
+    width: 160px;
+    height: 150px;
+    display: inline-block;
+    margin: 30px 12px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+#green1 {
+    background-color: #004B49; 
+}
+
+#green2 {
+    background-color:  #005F5F;
+}
+#green3 {
+    background-color: #10605A;
+}
+#green4 {
+    background-color: #5F9E8F;
+}
+#green5 {
+    background-color: #008C8D;
+    
+}
+p {
+    display: inline-block;
+    text-align:start;
+    width: 150px;
+    height: 10px;
+    margin: -20px 20px 30px 16px;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#blue1 {
+    background-color:  #003262;
+}
+#blue2 {
+    background-color:  #053976;
+}
+#blue3 {
+    background-color: #0038A8;
+}
+#blue4 {
+    background-color: #2D5E78;
+}
+#blue5 {
+    background-color: #246BCE;
+}
+
+#yellow1 {
+    background-color:  #FFD700;
+}
+#yellow2 {
+    background-color:  #053976;
+}
+#yellow3 {
+    background-color: #0038A8;
+}
+#yellow4 {
+    background-color: #2D5E78;
+}
+#yellow5 {
+    background-color: #246BCE;
+}
+/*https://creativebooster.net/blogs/colors/shades-of-teal-color?utm_content=cmp-true*/
+
+#btnbackground {
+    width: 250px;
+    height: 120px;
+    margin: 30px;
+    background-color: #4F95DA;
+    display: inline-block;
+    
+}
+.btn1 {
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    margin: 60px -250px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn1:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  .btn1:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn1 span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  .btn2 {
+      width: 200px;
+      height: 60px;
+      margin: 0px;
+      background-color: black;
+ 
+  }
